@@ -14,4 +14,4 @@ APP_README: "{{ APP_SRC }}/README.md"
 APP_OPT: "{{ APP_PREFIX }}/opt"
 APP_REPO_SSH: git@github.com:curl/curl.git
 APP_REPO_HTTPS: "{{ APP_REPO_SSH | regex_replace('git@([^:]+):', 'https://\\1/') }}"
-APP_TAG: curl-7_65_3
+APP_TAG: curl-8_9_1
